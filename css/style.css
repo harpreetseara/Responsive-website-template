@@ -1,0 +1,413 @@
+.container-fluid,.row,.col-sm-1,.col-sm-12
+{
+    padding: 0;
+    margin: 0;        
+}
+.navbar-inverse .navbar-toggle
+{
+    background-color: #EC128D;
+}
+.header-sec1
+{
+    background-color: #EC128D;    
+    text-align: right;
+    padding: 2px 10%;
+    box-sizing: border-box;
+}
+
+.fa-facebook,.fa-twitter,.fa-linkedin
+{
+    font-size: 25px;
+    margin: 5px;
+    color: #fff;
+}
+.fa:hover
+{
+    color: #000;
+}
+.navbar{
+    background-color: #fff;
+    border: none;
+}
+.navbar-header img
+{
+    width: 180px;
+    height: 90px;
+    margin-left:40px;
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-nav
+{
+    margin-left: 20px;
+}
+.collapse{
+    margin-top: 20px;
+}
+.navbar-inverse .navbar-nav>li>a,.navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>.active>a
+{
+    border-right:1px solid #EC128D;
+    color: #000000;
+    background-color: #fff;
+}
+.navbar-nav>li>a:hover ,.navbar-inverse .navbar-nav>.active>a
+{
+    border:1px solid #EC128D;
+    color: #000000 !important;
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #EC128D;
+}
+.nav>li>a {
+
+    padding: 10px 10px;
+}
+
+.dropdown-menu{
+    background-color: rgba(0,0,0,0.8);
+
+}
+.dropdown-menu>li>a {
+
+    padding: 8px 25px;
+    color: #fff;
+
+}
+.thelink
+{
+    border:none;
+    background-color: rgba(0,0,0,0.7);
+    color:#fff;
+    margin-left: 20px;
+    padding:12px 15px;
+    border-radius:5px;
+    text-align: center;
+}
+.thelink:hover
+{
+    box-shadow: 0 2px 10px #2D226E;
+    color: #fff;
+    text-decoration: none;
+
+}
+.thelinkdiv
+{
+    padding:35px 10px;
+    padding-left: 0px;
+}
+.banner
+{
+    background: url("../images/banner2.jpg") no-repeat;
+    background-size:cover;
+    height:400px;
+    right:0;
+    width:100%;
+    border-top:1px solid #000;
+    box-shadow: 0 3px 10px #2D226E;
+}
+.banner h1
+{
+    text-align: center;
+    padding: 20px 10%;
+    font-weight:bold;
+    font-size:50px;
+    text-shadow: 1px 2px 1px #777777;
+    line-height:100px;
+}
+.theformsec
+{
+    margin-top: 30px;
+    margin: auto;
+    background-color: #333333;
+    padding:50px 20px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px 50px;
+    box-shadow: 0 3px 10px #2D226E;
+}
+
+.theformsec input,.theformsec select
+{
+    width:250px !important;
+    height:50px;
+    margin: 5px 10px;
+    border:none;
+    border-radius: 5px;
+    padding-left: 10px;
+    color:rgba(0,0,0,0.5);
+
+}
+.theformsec button
+{
+    padding:14px 10px;
+    background-color: #EC128D;
+    border:none;
+    color:#fff;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius:5px;
+}
+.theformsec button:hover
+{
+    background-color: #fff;
+    color: #EC128D;
+
+}
+.lstest-info input:hover {
+
+    box-shadow: 0 2px 10px #2D226E;
+
+}
+.header-sec2{
+    position: relative;
+    top:-100px;
+}
+.outer-sec{
+    padding: 20px;
+}
+.outer-sec2{
+    margin: 0;
+    margin-top: 0;
+}
+.sec2
+{
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 3px 10px #2D226E;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0;
+}
+.sec2 img
+{
+    background-color: #ED128D;
+    width:100px;
+    height:100px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.sec2 h2
+{
+    font-size: 20px;
+    color:#ED128D;
+}
+.sec2 a
+{
+    color:#ED128D;
+}
+.up,.down
+{
+    text-align: center;
+    background-color: #ED128D;
+}
+.up img,.down img
+{
+    width:90px;
+    height:40px;
+
+
+}
+.down img
+{
+    transform: rotateZ(180deg);    
+
+}
+
+.outer-sec3 h2{
+    margin: 0;
+    padding-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.thesec
+{
+    border:1px solid #ED128D;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.thesec img
+{
+    border: 1px solid #eeeeee;
+    width:100%;
+    height:100px;
+}
+.thesec h4
+{
+    color:#ED128D;   
+}
+.thesec h6
+{
+    font-size: 15px;
+    padding: 5px 0; 
+}
+
+.latestinfosec
+{
+    padding-top: 20px;
+    padding:50px 21px;
+    padding-top: 20px;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.1);
+}
+.next,.pre
+{
+    position: absolute;
+    margin-top: 150px;
+    right:0;
+    font-size: 50px;
+    background-color: #ED128D;
+    width:33px;
+    height:60px;
+}
+.pre
+{
+    left:0;
+    transform: rotateY(180deg);
+}
+.lstest-info
+{
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid #eeeeee;
+    padding-bottom: 20px;
+}
+.lstest-info h4
+{
+    color:#ED128D;
+}.lstest-info h6{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.latestinfosec h1
+{
+    color:#fff;
+    background-color: #ED128D;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.lstest-info input
+{
+    background-color: rgba(0,0,0,0.6);
+    color:#fff;
+    width: 100%;
+    height:45px;
+    border: none;
+    margin-top: 10px;
+}
+.lstest-info p
+{
+    padding: 5px 0;
+}
+.footer{
+    background-color: rgba(0,0,0,0.8);
+    color:#fff;
+
+    line-height: 50px;
+    text-align: center;
+
+}
+.footer ul li{
+    display:inline;
+
+}
+.footer ul li a
+{
+    color:#fff;
+    padding: 5px 10px;
+}
+.pinkstrip
+{
+    height:15px;
+    background-color: #EC128D;
+    margin-top: 40px;
+}
+#job-sec1,#job-sec2,#job-sec3
+{
+    display:none;
+}
+@media screen and (max-width: 480px) {
+    .theformsec input,.theformsec select
+    {
+        margin: 5px auto;
+    }
+    .banner h1
+    {
+        font-weight:bold;
+        font-size:24px;
+        line-height:30px;
+    }
+    .banner
+    {
+        height:280px;
+    }
+    .navbar-toggle{
+        margin-top: 30px;
+    }
+    #myNavbar{
+        position: absolute;
+        z-index: 10;
+        background-color: #EC128D;
+
+    }
+    .theformsec
+    {
+        padding:30px 20px;
+    }
+    .theformsec input,.theformsec select
+    {
+        width:250px !important;
+        height:30px;
+    }
+    .theformsec button
+    {
+        padding:8px 6px;
+
+    }
+    .thelinkdiv
+    {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    #myNavbar
+    {
+        width: 100%;
+        padding: 0;
+
+    }
+    .navbar-nav,.nav
+    {
+        margin: 0px;
+        padding: 0;
+    }
+    .outer-sec{
+        padding: 5px;
+    }
+    .col-sm-4,.col-sm-12
+    {
+        padding: 0;
+    }
+    .lstest-info
+    {
+        margin-top: 10px;
+    }
+    .footer ul li a
+    {
+        color:#fff;
+        padding: 5px 5px;
+    }
+    .thelinkdiv
+    {
+        border-top: 1px solid #ED128D;
+    }
+}
